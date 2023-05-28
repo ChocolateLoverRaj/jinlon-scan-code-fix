@@ -6,5 +6,5 @@ sudo cp $SCRIPT_DIR/90-custom-keyboard.hwdb /etc/udev/hwdb.d/90-custom-keyboard.
 sudo systemd-hwdb update
 sudo udevadm trigger
 
-echo "Added custom scan code mappings to fix keys for jinlon. Without keyd, you probably have to reboot for the fixes to take effect. If you are using keyd, then you can use the keys now without rebooting"
+echo "Added custom scan code mappings to fix keys for jinlon. Changes will take effect after you reboot."
 echo "If this script didn't work, create an issue at https://github.com/ChocolateLoverRaj/jinlon-scan-code-fix/issues"
