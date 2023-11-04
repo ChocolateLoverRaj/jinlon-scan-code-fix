@@ -1,3 +1,6 @@
+# No longer needed
+Scan codes should be correct by default when installing the latest version of most Linux distros.
+
 # jinlon scan code fix
 Fix the incorrect keyboard scan codes for HP Elite c1030 Chromebook / HP Chromebook x360 13c running linux.
 
